@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    display: flex;
+}
+.side-bar{
+    width: max-content;
+    padding: 1rem;
+    border-radius: 4px;
+    border: 1px solid gray;
+    box-shadow:2px 2px 3px 1px #00000094;
+    margin: 2rem 0;
+}
+.side-bar h2{
+      font-family: Arial, Helvetica, sans-serif;
+}
+.side-bar ul{
+    padding: 2.5rem;
+}
+.side-bar ul a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 300;
+    line-height: 40px;
+
+}
+
+.tasks{
+    display: flex;  
+    width: 100%;
+    margin: 2rem 0;
+    flex-direction: column;
+    align-items: center;
+}
+.tasks p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2rem 0;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.task-heading1 .heading-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 30rem;
+    border: 1px solid black;
+    border-radius: 6px;
+    box-shadow: 1px 1px 5px 2px #00000087;
+}
+.task-heading1 .heading-box p{
+    font-size: 1rem;
+    padding: 0 1.5rem;
+    text-align: start;
+}
+.task-heading1 .heading-box h1{
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+.task-heading2{
+    margin: 5rem 0;
+}
+.task-heading2 .heading-box{
+    width: 32rem;
+    text-align: center;
+    box-shadow: 1px 3px 2px 2px #0000004d;
+    border-radius: 8px;
+}
+.task-heading2 .heading-box h1{
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+    background: #ffb6c11c;
+    padding: 0.3rem;
+    border: 1px solid #00000045;
+}
+.icons i{
+    font-size: 1.6rem;
+    margin: 0 2rem;
+}
+
+.task-heading2 .heading-box .boxes{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+.task-heading2 .heading-box .boxes .box-1{
+    width: max-content;
+    background: #8080806e;
+    border-radius: 14px;
+}
+.task-heading2 .heading-box .boxes .box-1 h3{
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   padding: 1rem 0;
+}
+.task-heading2 .heading-box .boxes .box-1 input{
+    height: 4rem;
+    border-radius: 15px;
+    padding: 0px 1rem;
+    font-size: 1rem;
+    margin: 0.2rem;
+    border: none;
+}
+.task-heading2 .heading-box .boxes .box-2{
+    width: max-content;
+    background: #8080806e;
+    border-radius: 14px;
+}
+.task-heading2 .heading-box .boxes .box-2 h3{
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   padding: 1rem 0;
+}
+.task-heading2 .heading-box .boxes .box-2 input{
+    height: 4rem;
+    border-radius: 15px;
+    padding: 0px 1rem;
+    font-size: 1rem;
+    margin: 0.2rem;
+    border: none;
+}
+.selection{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+.selection select{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 2px #0000006b;
+}
+.buttons{
+    text-align: initial;
+    padding: 0 2rem;
+}
+.buttons button{
+    padding: 0.8rem;
+    font-size: 1rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.task-heading2 .heading-box .summary .box{
+    width: max-content;
+    background: #8080806e;
+    border-radius: 14px;
+    margin: 2rem;
+}
+.task-heading2 .heading-box .summary .box h3{
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   text-align: initial;
+
+   padding: 1rem 0.5rem;
+}
+.task-heading2 .heading-box .summary .box input{
+    height: 4rem;
+    border-radius: 15px;
+    padding: 0px 1rem;
+    font-size: 1rem;
+    margin: 0.2rem;
+    border: none;
+    width: 25rem;
+}
+.credit-section{
+    padding: 0 2rem;
+}
+.credit-section .credit{
+    display: flex;
+    align-items: center;
+}
+.credit-section .credit h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-right: 0.5rem;
+}
+.credit-section .credit i{
+    color: blue;
+}
+.credit-section{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.select select{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 2px #0000006b;
+}
+.buttons-new{
+    text-align: end;
+    padding: 0 2rem;
+}
+.buttons-new button{
+    padding: 0.8rem;
+    font-size: 1rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.task-heading3 .heading-box{
+    width: 32rem;
+    text-align: center;
+    box-shadow: 1px 3px 2px 2px #0000004d;
+    border-radius: 8px;
+}
+.task-heading3 .heading-box h1{
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+.task-heading3 .heading-box .box textarea{
+    height: 8rem;
+    width: 26rem;
+    font-size: 1.2rem;
+    margin: 3rem;
+    color: gray;
+    border-radius: 8px;
+    box-shadow: 2px 1px 5px 1px #00000078;
+    border: none;
+}
+.task-heading4{
+    margin: 5rem 0;
+}
+.task-heading4 .main-box{
+    width: 30rem;
+    padding: 2rem;
+    border: 5px solid gray;
+}
+.task-heading4 .main-box h1{
+    margin: 1rem 0;
+    font-weight: 100;
+}
+.task-heading4 .main-box hr{
+    margin: 1rem 0;
+}
+.task-heading4 .main-box .data{
+    display: flex;
+}
+.task-heading4 .main-box p{
+    font-size: 10px;
+}
+.task-heading4 .main-box .container-2{
+    margin: 2rem 0;
+}
+.task-heading5 .heading-box{
+    width: 32rem;
+    text-align: center;
+    box-shadow: 0px 2px 3px 5px #00000057;
+    border-radius: 8px;
+
+}
+.task-heading5 .heading-box .box{
+    max-width: min-content;
+    margin: auto;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.task-heading5 .heading-box .box h2{
+    text-align: start;
+    padding: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.task-heading5 .heading-box .icons{
+    background-color: #d3d3d37a;
+}
+.task-heading5  textarea{
+    margin: 0.5rem ;
+    font-size: 1rem;
+    box-shadow: 1px 1px 4px 1px #0000009e;
+    border: none;
+    padding: 0.2rem;
+    border-radius: 8px;
+}
+.buttons-ex{
+    text-align: initial;
+    padding: 0 4rem;
+    margin: 2rem 0;
+}
+.buttons-ex button{
+    padding: 0.8rem;
+    font-size: 1rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.task-heading5 .heading-box .buttons-new{
+        text-align: end;
+        padding: 0 2rem;
+        margin: 1.5rem 1rem;
+
+    
+}
+.task-heading5 .heading-box .buttons-new button{
+        padding: 0.8rem;
+        font-size: 1rem;
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 8px;
+}
+.task-heading6 .heading-box{
+    width: 36rem;
+    text-align: center;
+    box-shadow: 1px 3px 2px 2px #0000004d;
+    border-radius: 8px;
+    margin: 5rem 0;
+}
+.task-heading6 .heading-box h1{
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+.task-heading6 .heading-box .music-icons{
+    width: max-content;
+    align-items: center;
+    display: flex;
+    background: black;
+    padding: 1rem;
+    border-radius: 8px;
+
+}
+.task-heading6 .heading-box .music-icons i{
+    font-size: 2rem ;
+    margin: 0 2rem;
+    color: white;
+}
+.task-heading6 .heading-box .music-icons #musicprogressbar{
+    width:12rem;
+}
+.task-heading6 .heading-box .music-icons #spikerprogressbar{
+    width:6rem;
+}
+
+.task-heading6 .heading-box .music-box{
+    padding: 2rem;
+}
